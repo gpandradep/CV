@@ -58,24 +58,19 @@ knitr::include_graphics("img/GAP-circle.png")
 if(params$pdf_mode){
   cat("View this CV online with links at _gpandradep/CV/_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)")
 }
 ```
+
+[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)"
+
+
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %>% print_contact_info()
-```
-
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_skill_bars()
 ```
 
 
