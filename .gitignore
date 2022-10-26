@@ -2,6 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+
+resume_files/
+.secrets
+.DS_Store
+
+*_cache/
+
+
 /*.jpg
 
 img/
