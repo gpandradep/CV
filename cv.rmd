@@ -62,7 +62,7 @@ if(params$pdf_mode){
 }
 ```
 
-[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)"
+<!--[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gpandradep/CV/raw/master/Gabriel%20Andrade%20Ponce%E2%80%99s%20CV.pdf)"-->
 
 
 
@@ -108,16 +108,16 @@ CV %<>% print_section('education')
 
 
 
-Experience {data-icon=laptop}
---------------------------------------------------------------------------------
+<!--Experience {data-icon=laptop}
+-------------------------------------------------------------------------------- -->
 ::: aside
 ```{r}
-CV %<>% print_text_block('experience_aside')
+#CV %<>% print_text_block('experience_aside')
 ```
 :::
 
 ```{r}
-CV %<>% print_section('experience')
+#CV %<>% print_section('experience')
 ```
 
 
@@ -126,13 +126,16 @@ CV %<>% print_section('experience')
 <br>
 <br>
 <br>
+<br>
+<br>
+
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
 ```{r}
-CV %<>% print_text_block('teaching_experience_aside')
+#CV %<>% print_text_block('teaching_experience_aside')
 ```
 :::
 
@@ -159,3 +162,26 @@ CV %<>% print_section('academic_articles')
 ```{r}
 #CV %<>% print_links()
 ```
+
+Grants {data-icon=pen-to-square}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('grant')
+```
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_exp')
+```
+
+Congresses and symposiums {data-icon=person-chalkboard}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('meeting')
+```
+
