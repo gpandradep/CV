@@ -129,21 +129,6 @@ CV %<>% print_section('education')
 <br>
 <br>
 
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-#CV %<>% print_text_block('teaching_experience_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('teaching_experience')
-```
-
-
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
@@ -163,20 +148,26 @@ CV %<>% print_section('academic_articles')
 #CV %<>% print_links()
 ```
 
-Grants {data-icon=pen-to-square}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('grant')
-```
-
-
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('research_exp')
 ```
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+::: aside
+```{r}
+#CV %<>% print_text_block('teaching_experience_aside')
+```
+:::
+
+```{r}
+CV %<>% print_section('teaching_experience')
+```
+
 
 Congresses and symposiums {data-icon=person-chalkboard}
 --------------------------------------------------------------------------------
@@ -185,3 +176,9 @@ Congresses and symposiums {data-icon=person-chalkboard}
 CV %<>% print_section('meeting')
 ```
 
+Grants {data-icon=pen-to-square}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('grant')
+```
