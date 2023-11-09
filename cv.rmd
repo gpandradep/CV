@@ -176,9 +176,9 @@ Congresses and symposiums {data-icon=person-chalkboard}
 CV %<>% print_section('meeting')
 ```
 
-Grants {data-icon=pen-to-square}
+Awards & Gratns {data-icon=pen-to-square}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('grant')
+CV %<>% print_section('award')
 ```
