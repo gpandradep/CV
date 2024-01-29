@@ -49,7 +49,7 @@ Aside
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
 #datadrivencv::build_network_logo(CV$entries_data)
-knitr::include_graphics("img/GAP-circle.png")
+#knitr::include_graphics("img/GAP-circle.png")
 
 ```
 
@@ -106,18 +106,23 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('research_exp')
+```
 
-<!--Experience {data-icon=laptop}
--------------------------------------------------------------------------------- -->
+Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
 ::: aside
 ```{r}
-#CV %<>% print_text_block('experience_aside')
+CV %<>% print_text_block('experience_aside')
 ```
 :::
 
 ```{r}
-#CV %<>% print_section('experience')
+CV %<>% print_section('experience')
 ```
 
 
@@ -139,28 +144,23 @@ CV %<>% print_section('academic_articles')
 
 
 ```{r}
-#CV %<>% print_section('divulgative_articles')
+CV %<>% print_section('divulgative_articles')
 ```
 
 
 
 ```{r}
-#CV %<>% print_links()
+CV %<>% print_links()
 ```
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('research_exp')
-```
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
 ```{r}
-#CV %<>% print_text_block('teaching_experience_aside')
+CV %<>% print_text_block('teaching_experience_aside')
 ```
 :::
 
