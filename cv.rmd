@@ -89,11 +89,19 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Gabriel P. Andrade-Ponce {#title}
+Gabriel Andrade-Ponce, Ph.D. {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("current") 
+
+CV %<>% print_text_block("intro") 
+```
+
+<br>
+
+```{r}
 CV %<>% print_text_block("intro") 
 ```
 
@@ -144,7 +152,7 @@ CV %<>% print_section('academic_articles')
 
 
 ```{r}
-CV %<>% print_section('divulgative_articles')
+#CV %<>% print_section('divulgative_articles')
 ```
 
 
