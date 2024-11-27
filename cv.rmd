@@ -114,12 +114,13 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Research Experience {data-icon=laptop}
+Additional training {data-icon=address-book data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section('research_exp')
+CV %<>% print_section('add_train')
 ```
+
 
 Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
@@ -176,17 +177,26 @@ CV %<>% print_text_block('teaching_experience_aside')
 CV %<>% print_section('teaching_experience')
 ```
 
+Student Mentoring {data-icon=user-graduate}
+--------------------------------------------------------------------------------
 
-Congresses and symposiums {data-icon=person-chalkboard}
+```{r}
+CV %<>% print_section('mentoring')
+```
+
+
+
+Meetings {data-icon=person-chalkboard}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('meeting')
 ```
 
-Awards & Gratns {data-icon=pen-to-square}
+Awards & Grants {data-icon=award}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('award')
 ```
+
