@@ -6,9 +6,9 @@
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
 # Knit the HTML version
-rmarkdown::render("cv_es.rmd",
+rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
-                  output_file = "cv_es.html")
+                  output_file = "cv_en.html")
 
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
