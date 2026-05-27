@@ -122,7 +122,7 @@ CV %<>% print_section('add_train')
 ```
 
 
-Experience {data-icon=laptop}
+Professional Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r}
@@ -143,7 +143,7 @@ CV %<>% print_section('experience')
 <br>
 <br>
 
-Publications {data-icon=book}
+Peer-Reviewed Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -177,23 +177,36 @@ CV %<>% print_text_block('teaching_experience_aside')
 CV %<>% print_section('teaching_experience')
 ```
 
-Student Mentoring {data-icon=user-graduate}
+Mentoring & Academic Service {data-icon=user-graduate}
 --------------------------------------------------------------------------------
 
+*Thesis Supervision*
+
 ```{r}
-CV %<>% print_section('mentoring')
+CV %<>% print_section('supervision')
+```
+
+*Graduate Committees*
+
+```{r}
+CV %<>% print_section('committees')
+```
+
+*Thesis Evaluation*
+
+```{r}
+CV %<>% print_section('evaluating')
 ```
 
 
-
-Meetings {data-icon=person-chalkboard}
+Selected Conference Presentations {data-icon=person-chalkboard}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('meeting')
 ```
 
-Awards & Grants {data-icon=award}
+Selected Grants, Fellowships, and Awards {data-icon=award}
 --------------------------------------------------------------------------------
 
 ```{r}
